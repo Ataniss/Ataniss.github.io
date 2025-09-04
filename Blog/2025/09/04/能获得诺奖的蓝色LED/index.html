@@ -19,22 +19,26 @@
   <meta name="author" content="Ataniss">
   <meta name="keywords" content="">
   
-    <meta name="description" content="C语言hello world的标准写法，需要可以复制粘贴!😜1234567#include &lt;stdio.h&gt;int main()&#123;   printf(&quot;Hello World!);   return 0;&#125;">
+    <meta name="description" content="&emsp; 今天在用Multisim仿真一部分电路时发现在3V的供电下LED居然不会亮，3.6V却可以，令人百思不得其解，印象中LED的压降应该只有2V左右。查阅资料后发现这里居然隐藏着一份可以获得诺奖的学问！    Multisim 蓝色LED仿真图     &emsp; 原来，我在原理图中使用的是蓝色LED，蓝色 LED 压降比一般的LED更高，原因是发光波长越短，光子需要的能量越大，而半">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://ataniss.github.io/Blog/2025/09/02/hello-world/index.html">
+<meta property="og:title" content="能获得诺奖的蓝色LED">
+<meta property="og:url" content="https://ataniss.github.io/Blog/2025/09/04/%E8%83%BD%E8%8E%B7%E5%BE%97%E8%AF%BA%E5%A5%96%E7%9A%84%E8%93%9D%E8%89%B2LED/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="C语言hello world的标准写法，需要可以复制粘贴!😜1234567#include &lt;stdio.h&gt;int main()&#123;   printf(&quot;Hello World!);   return 0;&#125;">
+<meta property="og:description" content="&emsp; 今天在用Multisim仿真一部分电路时发现在3V的供电下LED居然不会亮，3.6V却可以，令人百思不得其解，印象中LED的压降应该只有2V左右。查阅资料后发现这里居然隐藏着一份可以获得诺奖的学问！    Multisim 蓝色LED仿真图     &emsp; 原来，我在原理图中使用的是蓝色LED，蓝色 LED 压降比一般的LED更高，原因是发光波长越短，光子需要的能量越大，而半">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-09-02T15:23:49.478Z">
-<meta property="article:modified_time" content="2025-09-04T12:49:27.815Z">
+<meta property="og:image" content="https://ataniss.github.io/%5Cimages%5CBlueLED.png">
+<meta property="og:image" content="https://ataniss.github.io/%5Cimages%5CRedLED.png">
+<meta property="article:published_time" content="2025-09-04T14:35:50.000Z">
+<meta property="article:modified_time" content="2025-09-04T15:14:35.360Z">
 <meta property="article:author" content="Ataniss">
-<meta property="article:tag" content="Hello World">
+<meta property="article:tag" content="硬件">
+<meta property="article:tag" content="诺奖">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ataniss.github.io/%5Cimages%5CBlueLED.png">
   
   
   
-  <title>Hello World - Hexo</title>
+  <title>能获得诺奖的蓝色LED - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -200,7 +204,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Hello World</span>
+            <span id="subtitle">能获得诺奖的蓝色LED</span>
           
         </div>
 
@@ -211,8 +215,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-09-02 23:23" pubdate>
-          2025年9月2日 晚上
+        <time datetime="2025-09-04 22:35" pubdate>
+          2025年9月4日 晚上
         </time>
       </span>
     
@@ -223,7 +227,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          29 字
+          423 字
         
       </span>
     
@@ -234,7 +238,7 @@
         
         
         
-          1 分钟
+          4 分钟
         
       </span>
     
@@ -271,12 +275,15 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header">能获得诺奖的蓝色LED</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="C语言hello-world的标准写法，需要可以复制粘贴-😜"><a href="#C语言hello-world的标准写法，需要可以复制粘贴-😜" class="headerlink" title="C语言hello world的标准写法，需要可以复制粘贴!😜"></a>C语言hello world的标准写法，需要可以复制粘贴!😜</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>   <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Hello World!);</span><br><span class="hljs-string">   return 0;</span><br><span class="hljs-string">&#125;</span><br></code></pre></td></tr></table></figure>
+                <p> &emsp; 今天在用Multisim仿真一部分电路时发现在3V的供电下LED居然不会亮，3.6V却可以，令人百思不得其解，印象中LED的压降应该只有2V左右。查阅资料后发现这里居然隐藏着一份可以获得诺奖的学问！  </p>
+<p> <strong>Multisim 蓝色LED仿真图</strong><br><img src="/%5Cimages%5CBlueLED.png" srcset="/img/loading.gif" lazyload>   </p>
+<p> &emsp; 原来，我在原理图中使用的是蓝色LED，蓝色 LED 压降比一般的LED更高，原因是发光波长越短，光子需要的能量越大，而半导体带隙 E 必须 ≥ 光子能量（E &#x3D; hc&#x2F;λ）。蓝光 λ≈450 nm，对应 E ≈ 2.75 eV；红光 λ≈650 nm，仅 1.9 eV。 拥有这种带隙的材料很难制作，以至于在红色LED、绿色LED相继研发出来后的30年，蓝色LED始终找不到研发方向，甚至有些科学家已经写了理论来论证蓝色LED无法制作出来，教科书上也下了结论。直到2014年，三位日本科学家制作出了可以发蓝光的半导体，蓝色LED无法制作的“定律”才被打破。<br> &emsp;  蓝色LED的影响是深远的，它的出现替代了过去高耗电的白炽灯，为世界节约了巨大的电力能源，同时补全了人造三原色，使得彩色电子显示成为了可能，推动了一系列科技变革的产生。这么大的影响力，获得诺奖也是实至名归。</p>
+<p> <strong>Multisim 红色LED仿真图</strong><br><img src="/%5Cimages%5CRedLED.png" srcset="/img/loading.gif" lazyload><br> &emsp; 言归正传，知道了蓝色LED的压降比较高，换了红色的LED就可以在3V下驱动了。顺便提一下这是一个静电检测电路。</p>
 
                 
               </div>
@@ -295,7 +302,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%BC%96%E7%A8%8B/" class="category-chain-item">编程</a>
+  <a href="/categories/%E6%9D%82%E8%B0%88/" class="category-chain-item">杂谈</a>
   
   
 
@@ -310,7 +317,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Hello-World/" class="print-no-link">#Hello World</a>
+        <a href="/tags/%E7%A1%AC%E4%BB%B6/" class="print-no-link">#硬件</a>
+      
+        <a href="/tags/%E8%AF%BA%E5%A5%96/" class="print-no-link">#诺奖</a>
       
     </div>
   
@@ -322,8 +331,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>https://ataniss.github.io/Blog/2025/09/02/hello-world/</div>
+      <div>能获得诺奖的蓝色LED</div>
+      <div>https://ataniss.github.io/Blog/2025/09/04/能获得诺奖的蓝色LED/</div>
     </div>
     <div class="license-meta">
       
@@ -335,7 +344,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年9月2日</div>
+          <div>2025年9月4日</div>
         </div>
       
       
@@ -367,15 +376,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/Blog/2025/09/04/C%E8%AF%AD%E8%A8%80-vscode-snippets-%E6%A8%A1%E6%9D%BF/" title="C语言 vscode snippets 模板">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">C语言 vscode snippets 模板</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/Blog/2025/09/04/C%E8%AF%AD%E8%A8%80-vscode-snippets-%E6%A8%A1%E6%9D%BF/" title="C语言 vscode snippets 模板">
+                        <span class="hidden-mobile">C语言 vscode snippets 模板</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
