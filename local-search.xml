@@ -4,7 +4,26 @@
   
   
   <entry>
-    <title>能获得诺奖的蓝色LED</title>
+    <title>stm32原子性操作的研究</title>
+    <link href="/Blog/2025/09/11/stm32%E5%8E%9F%E5%AD%90%E6%80%A7%E6%93%8D%E4%BD%9C%E7%9A%84%E7%A0%94%E7%A9%B6/"/>
+    <url>/Blog/2025/09/11/stm32%E5%8E%9F%E5%AD%90%E6%80%A7%E6%93%8D%E4%BD%9C%E7%9A%84%E7%A0%94%E7%A9%B6/</url>
+    
+    <content type="html"><![CDATA[<p> &emsp; 曾经遇到一个</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>嵌入式</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>能获诺奖的蓝色LED</title>
     <link href="/Blog/2025/09/04/%E8%83%BD%E8%8E%B7%E5%BE%97%E8%AF%BA%E5%A5%96%E7%9A%84%E8%93%9D%E8%89%B2LED/"/>
     <url>/Blog/2025/09/04/%E8%83%BD%E8%8E%B7%E5%BE%97%E8%AF%BA%E5%A5%96%E7%9A%84%E8%93%9D%E8%89%B2LED/</url>
     
@@ -14,6 +33,8 @@
     <categories>
       
       <category>杂谈</category>
+      
+      <category>嵌入式</category>
       
     </categories>
     
